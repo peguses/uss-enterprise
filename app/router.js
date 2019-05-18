@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('enterprise', function() {
+    this.route('hail');
+  });
 });
 
 export default Router;
